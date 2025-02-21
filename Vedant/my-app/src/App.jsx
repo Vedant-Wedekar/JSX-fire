@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from './components/Header'
-import  from './components/Main1'
+import Con from './components/Con'
 const App = () => {
   return (
     <div className='w-full min-h-screen'>
       <Header/>
+      <Con/>
     </div>
   )
 }
-
 export default App
