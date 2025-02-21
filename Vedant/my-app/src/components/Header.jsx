@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const header = () => {
   return (
@@ -10,7 +11,7 @@ const header = () => {
         <div className="w-[45px] h-[20px] bg-red-600 ml-[150px] rounded-4xl text-white text-sm flex justify-center ">New</div>
       <div className="w-[200px] h-[35px] border-1 pb-0.5  rounded-4xl bg-zinc-100 gap-3 flex justify-center items-center text-sm font-medium">
 
-        <div className="ca mr-0.5">Home</div>
+        <div className="ca mr-0.5 flex"><svg xmlns="http://www.w3.org/2000/svg" height="7px" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/></svg>Home</div>
         <div className="cb">New Courses</div>
       </div>    </div>
 
