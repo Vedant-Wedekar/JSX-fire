@@ -396,12 +396,21 @@
     
   }
 
+  .block-3 h1{
+
+    display: flex;
+    justify-content: center;
+  
+
+  }
+
 
   .cards
   {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
+    padding-top: 50px;
   }
   
  
@@ -415,7 +424,7 @@
 
   .ci1
   {
-    width: 330px;
+    width: 90%;
     height: 400px;
     background-image: url(assets/javascript.jpg);
     background-size: cover;
@@ -427,8 +436,8 @@
 
   .ci2
   {
-    width: 300px;
-    height: 310px;
+    width: 90%;
+    height: 400px;
     background-image: url(assets/tailwind.jpg);
     background-size: cover;
     border-radius: 30px 30px 30px 30px ;
@@ -439,10 +448,10 @@
 
   .ci3
   {
-    width: 300px;
-    height: 310px;
+    width: 90%;
+    height: 400px;
     background-image: url(assets/nextjs.jpg);
-    background-size: contain;
+    background-size: cover;
     border-radius: 30px 30px 30px 30px ;
     
   }
@@ -451,10 +460,10 @@
 
   .ci4
   {
-    width: 300px;
-    height: 310px;
+    width: 90%;
+    height: 400px;
     background-image: url(assets/reactjs.jpg);
-    background-size: contain;
+    background-size: cover;
     border-radius: 30px 30px 30px 30px ;
     
   }
