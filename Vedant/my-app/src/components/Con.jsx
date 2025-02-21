@@ -1,8 +1,34 @@
-import React from 'react'
+
+// import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { BiStrikethrough } from 'react-icons/bi'
+import React, { useState } from 'react';
+
 // import myImage from './assets/myimage.jpg'; // Adjust path accordingly
 const Con = () => {
+
+  const [bgColor, setBgColor] = useState('bg-zinc-100');
+
+  const handleHover = () => {
+    setBgColor('bg-blue-300');
+  };
+
+  const handleLeave = () => {
+    setBgColor('bg-zinc-100');
+  };
+
+  const handleClick = () => {
+    setBgColor(prevColor => (prevColor === 'bg-zinc-100' ? 'bg-red-400' : 'bg-zinc-100'));
+  };
+
+
+
+
+
+
+
+
+
   return (
     <div className='flex justify-center items-center gap-[60px]'>  
         {/* <div className="image">   <img src={myImage} alt="My Image" width="300" /></div> */}
@@ -19,16 +45,41 @@ const Con = () => {
                <div className="text mb-[0px] "></div>
                </div> <h2 className='mb-[px]'>(6950 review)</h2>
                </div>
-           
+
           </div>
           <div className="text-xl font-bold">Select Learning Mode</div>
 
           <div className="c2 flex justify-between items-center ml-3 ">
         <div className="flex gap-3">
-        <div className="w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5 text-sm font-medium   rounded-4xl bg-zinc-100 flex justify-center items-center">Self Study</div>
-        <div className="w-[75px] h-[35px] border-zinc-400 border-1 pb-0.5    text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">Live</div>
+
+
+<div 
+  onClick={handleClick} 
+  className={`cursor-pointer w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5 text-sm font-medium rounded-4xl flex justify-center items-center ${bgColor}`}
+>
+  Self Study
+</div>
+<div 
+  onClick={handleClick} 
+  className={`cursor-pointer w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5 text-sm font-medium rounded-4xl flex justify-center items-center ${bgColor}`}
+>
+  Live Led
+</div><div 
+  onClick={handleClick} 
+  className={`cursor-pointer w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5 text-sm font-medium rounded-4xl flex justify-center items-center ${bgColor}`}
+>
+  Mentorship
+</div><div 
+  onClick={handleClick} 
+  className={`cursor-pointer w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5 text-sm font-medium rounded-4xl flex justify-center items-center ${bgColor}`}
+>
+  Bootcamp
+</div>
+
+
+        {/* <div className="w-[75px] h-[35px] border-zinc-400 border-1 pb-0.5    text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">Live</div>
         <div className="w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5   text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">Mentorship</div>
-        <div className="w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5    text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">Bootcamp</div>
+        <div className="w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5    text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">Bootcamp</div> */}
 </div> 
 </div>
 
