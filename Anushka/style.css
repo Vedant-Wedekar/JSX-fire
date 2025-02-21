@@ -123,7 +123,7 @@
   }
   .nav-logo{
 
-    margin-left: -250px;
+    margin-left: -240px;
     width: 80px;
     display: flex;
     justify-content: center;
@@ -145,10 +145,10 @@
 
     background-image: url("assets/Mastering.jpg");
     background-size: cover;
-    width: 500px;
+    width: 550px;
     height: 500px;
     border-radius: 40px 40px 40px 40px ;
-    margin-left: 80px;
+    margin-left: 40px;
     margin-top: 60px;
 
   }
@@ -165,7 +165,7 @@
 
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
     width: 100%;
     height: 300px;
 
@@ -196,13 +196,37 @@
   }
 
   
-  .btn-14 , .btn-11 ,  .btn-13  , button
+  .btn-14  button
   {
 
    width: 90px;
    height: 30px;
    border:  solid rgb(217, 210, 210) ;
    border-radius: 30px 30px 30px 30px ;
+   
+  }
+
+  
+  .btn-13  button
+  {
+     
+   width: 90px;
+   height: 30px;
+   border:  solid rgb(217, 210, 210) ;
+   border-radius: 30px 30px 30px 30px ;
+   
+   
+  }
+  
+  
+  .btn-11 button
+  {
+     
+   width: 90px;
+   height: 30px;
+   border:  solid rgb(217, 210, 210) ;
+   border-radius: 30px 30px 30px 30px ;
+
    
   }
 
@@ -213,11 +237,38 @@
    height: 30px;
    border:  solid rgb(217, 210, 210) ;
    border-radius: 30px 30px 30px 30px ;
-   background-color: rgb(235, 235, 206);
+   background-color: rgb(232, 232, 196);
    
   }
 
   
+  .btn-21 button
+  {
+     
+   width: 90px;
+   height: 30px;
+   border:  solid rgb(217, 210, 210) ;
+   border-radius: 30px 30px 30px 30px ;
+   
+  }
+  .btn-22 button
+  {
+     
+   width: 90px;
+   height: 30px;
+   border:  solid rgb(217, 210, 210) ;
+   border-radius: 30px 30px 30px 30px ;
+   
+  }
+  .btn-23 button
+  {
+     
+   width: 90px;
+   height: 30px;
+   border:  solid rgb(217, 210, 210) ;
+   border-radius: 30px 30px 30px 30px ;
+   
+  }
   .btn-24 button
   {
      
@@ -225,7 +276,7 @@
    height: 30px;
    border:  solid rgb(217, 210, 210) ;
    border-radius: 30px 30px 30px 30px ;
-   background-color: rgb(235, 235, 206);
+   background-color: rgb(232, 232, 196);
    
   }
 
@@ -234,11 +285,12 @@
   .btn-31 button
   {
      
-   width: 120px;
+   width: 130px;
    height: 40px;
    border:  solid rgb(217, 210, 210) ;
    border-radius: 30px 30px 30px 30px ;
-   background-color: rgb(25, 212, 25);
+   background-color: rgb(41, 164, 41);
+   color: white;
    
   }
 
@@ -247,11 +299,11 @@
   .btn-32 button
   {
      
-   width: 120px;
+   width: 130px;
    height: 40px;
    border:  solid rgb(217, 210, 210) ;
    border-radius: 30px 30px 30px 30px ;
-   background-color: rgb(235, 235, 206);
+   /* background-color: rgb(232, 232, 196); */
    
   }
 
@@ -278,7 +330,7 @@
     background-image: url(assets/specifications.jpg);
     background-size: cover;
     width: 500px;
-    height: 500px;
+    height: 450px;
     border-radius: 40px 40px 40px 40px ;
     margin-left: 840px;
     margin-top: -320px;
