@@ -25,5 +25,4 @@ const header = () => {
     </div>
   )
 }
-
 export default header
