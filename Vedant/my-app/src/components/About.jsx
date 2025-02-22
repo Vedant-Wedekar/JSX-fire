@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='w-full min-h-screen'>
     <div className="about">
-        <div  className="w-[250px] rotate-10  "><img className='rounded-4xl' src='about.png'></img></div>
+        <div  className="w-[250px] rotate-10  "><img className='rounded-4xl' src='https://nrl7nb5jvu6tvffc.public.blob.vercel-storage.com/about-O8g1PUVeKJ0gjlDnF1Ivo9wsVHdBhU.png'></img></div>
         <div className="content grid ml-[120px]">
             <div className="text-4xl font-medium  ">About the Instructor</div>
             <div class="w-[500px] mt-3">
