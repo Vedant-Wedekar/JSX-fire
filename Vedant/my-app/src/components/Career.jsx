@@ -19,7 +19,7 @@ const Career = () => {
     <div className="">
     <div className='flex justify-center items-center gap-[60px]'>  
         {/* <div className="image">   <img src={myImage} alt="My Image" width="300" /></div> */}
-        <img className='rounded-4xl mt-[40px] ml-[70px] mb-[100px]' src="career.jpg" alt="Online Image" width="600" />
+        <img className='rounded-4xl mt-[40px] ml-[70px] mb-[100px]' src="https://nrl7nb5jvu6tvffc.public.blob.vercel-storage.com/career-riJMZ4Z92Br6Faf7SkCGqFbLmqzqHR.jpg" alt="Online Image" width="600" />
 
        
       <div className="mt-[-100px]">

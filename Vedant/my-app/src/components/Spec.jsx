@@ -31,7 +31,7 @@ const Spec = () => {
                 </div>
     </div>
 
-    <div className="image  mt-[50px]  "><img className='rounded-4xl h-[550px] w-[530px]'  src='specifications.jpg'></img></div>
+    <div className="image  mt-[50px]  "><img className='rounded-4xl h-[550px] w-[530px]'  src='https://nrl7nb5jvu6tvffc.public.blob.vercel-storage.com/specifications-FycnNzXg9Vi49Cu24pcaWjaLLENgnF.jpg'></img></div>
 </div>
       <div className="h-[100px]"></div>
 
