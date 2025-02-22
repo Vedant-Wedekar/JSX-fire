@@ -498,17 +498,15 @@ a {
 
 /* ********************** Block-4  ********************* */
 
-.block-4
-
-{
-   /* background-color: #007bff; */
-   width: 100%;
-   height: 600px;
-   margin-top: -50px;
-  }
+.block-4 {
+  /* background-color: #007bff; */
+  width: 100%;
+  height: 600px;
+  margin-top: -50px;
+}
 
 
-  
+
 
 .img4 {
   background-image: url(assets/career.jpg);
@@ -517,20 +515,72 @@ a {
   height: 490px;
   border-radius: 40px 40px 40px 40px;
   margin-left: 40px;
-  
+
 }
 
-.con4
-{
+.con4 {
   display: flex;
   justify-content: space-between;
 }
 
-.sub4
-
-{
+.sub4 {
 
   width: 790px;
   height: 400px;
   margin-top: 60px;
+}
+
+
+.endmain {
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #A7d4fd 40px), repeating-linear-gradient(#9ccffa55, #9ccffa);
+  /* width: 100%; */
+  height: 440px;
+  margin-top: 7rem;
+  border-radius: 60px 60px 60px 60px;
+  background-color: #A7d4fd;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0rem 2rem 6rem;
+  gap: 5rem;
+  margin: 80px 40px 0 40px;
+}
+
+.eimg {
+  background-image: url(assets/about.png);
+  width: 320px;
+  background-color: #007bff;
+  height: 320px;
+  background-size: contain;
+  border-radius: 40px 40px 40px 40px;
+  background-position: right;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+  transform: rotate(-380deg);
+  overflow: hidden;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.eimg:hover {
+  transform: scale(1.1) rotate(4deg);
+}
+
+.econ {
+  width: 700px;
+  height: 200px;
+  margin-left: 20px;
+
+}
+
+.btn-ec button {
+
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 30px;
+  border: solid white;
+
 }
