@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='w-full min-h-screen'>
+    <div className='w-full '>
     <div className="about">
         <div  className="w-[250px] rotate-10  "><img className='rounded-4xl' src='https://nrl7nb5jvu6tvffc.public.blob.vercel-storage.com/about-O8g1PUVeKJ0gjlDnF1Ivo9wsVHdBhU.png'></img></div>
         <div className="content grid ml-[120px]">
