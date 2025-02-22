@@ -26,7 +26,7 @@ const Con = () => {
           <div className="c2 flex justify-between items-center ml-3 ">
         <div className="flex gap-3">
         <div className="w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5 text-sm font-medium   rounded-4xl bg-zinc-100 flex justify-center items-center">Self Study</div>
-        <div className="w-[75px] h-[35px] border-zinc-400 border-1 pb-0.5    text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">Live</div>
+        <div className="w-[75px] h-[35px]  pb-0.5    text-sm font-medium rounded-4xl bg-[#EDEFDE] flex justify-center items-center">Live Led</div>
         <div className="w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5   text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">Mentorship</div>
         <div className="w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5    text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">Bootcamp</div>
 </div> 
@@ -38,7 +38,7 @@ const Con = () => {
         <div className="w-[90px] h-[35px] border-zinc-400 border-1 pb-0.5 text-sm font-medium   rounded-4xl bg-zinc-100 flex justify-center items-center">1 Month</div>
         <div className="w-[90px] h-[35px] border-zinc-400 border-1 pb-0.5    text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">3 Month</div>
         <div className="w-[100px] h-[35px] border-zinc-400 border-1 pb-0.5   text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">6 Month</div>
-        <div className="w-[85px] h-[35px] border-zinc-400 border-1 pb-0.5    text-sm font-medium rounded-4xl bg-zinc-100 flex justify-center items-center">1 Year</div>
+        <div className="w-[85px] h-[35px]  pb-0.5    text-sm font-medium rounded-4xl bg-[#EDEFDE] flex justify-center items-center">1 Year</div>
 </div>
           </div>
 
