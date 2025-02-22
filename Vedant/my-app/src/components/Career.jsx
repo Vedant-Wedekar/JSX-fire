@@ -1,7 +1,7 @@
 
 // import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { BiStrikethrough } from 'react-icons/bi'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 
 // import myImage from './assets/myimage.jpg'; // Adjust path accordingly
