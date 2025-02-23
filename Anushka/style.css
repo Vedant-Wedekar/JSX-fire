@@ -141,12 +141,13 @@ a {
 .btn-up button
 
 {
-
+  /* margin-left: 100px; */
+  transform: translateY(15px);
   width: 60px;
   height: 30px;
   background-color: red;
   color: white;
-  margin-left: 300px;
+  margin-left: 340px;
   
 }
 
