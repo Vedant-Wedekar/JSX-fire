@@ -23,10 +23,19 @@ body {
 main {
 
   width: 100%;
-  height: 1500px;
+  height: 200rem;
   /* background-color: #007bff; */
 }
 
+/* footer */
+
+footer {
+
+  width: 100%;
+  height: 40rem;
+  /* background-color: #007bff; */
+  background: linear-gradient(to bottom, #e6f3fe, #87b6dc, #70adef);
+}
 
 /* Container */
 .container {
@@ -76,6 +85,12 @@ a {
 }
 
 
+.nav-btn button:hover {
+  box-shadow: 0px 0px 8px #70adef;
+
+}
+
+
 .btn-1 button {
   width: 70px;
   height: 30px;
@@ -119,6 +134,12 @@ a {
   border: solid rgb(217, 210, 210);
   border-radius: 30px 30px 30px 30px;
 
+
+}
+
+
+.nav-home button:hover {
+  box-shadow: 0px 0px 8px #70adef;
 
 }
 
@@ -197,6 +218,11 @@ a {
   gap: 30px;
 }
 
+
+.main-btn button:hover {
+  box-shadow: 0px 0px 8px #70adef;
+
+}
 
 .btn-14 button {
 
@@ -501,8 +527,8 @@ a {
 .block-4 {
   /* background-color: #007bff; */
   width: 100%;
-  height: 600px;
-  margin-top: -50px;
+  height: 1500px;
+  margin-top: -20px;
 }
 
 
@@ -529,7 +555,6 @@ a {
   height: 400px;
   margin-top: 60px;
 }
-
 
 .endmain {
   background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #A7d4fd 40px), repeating-linear-gradient(#9ccffa55, #9ccffa);
@@ -583,4 +608,108 @@ a {
   margin-top: 30px;
   border: solid white;
 
+}
+
+.btn-ec button:hover {
+  box-shadow: 0px 0px 10px green;
+
+}
+
+/************************ footer ***********************************/
+
+.footer {
+  width: 100%;
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.fe1 {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -20px;
+  gap: 200px;
+
+
+}
+
+.f-con h1 {
+
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.fe12,
+.fe13,
+.fe14 {
+
+
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  margin-top: 110px;
+
+}
+
+
+
+.f-search {
+
+  width: 30rem;
+  height: 50px;
+  border-radius: 30px 30px 30px 30px;
+  border: 2px solid transparent;
+  /* margin-left: 30px; */
+  padding: 10px;
+  margin-left: 100px;
+
+}
+
+.f-sb {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50rem;
+  height: 50px;
+  border-radius: 30px 30px 30px 30px;
+  margin: 20px;
+}
+
+.f-sb:hover {
+
+  border: 8px solid transparent;
+  /* box-shadow: 0px 0px 3px green; */
+
+}
+
+
+
+.btn-sub {
+  margin-left: -25rem;
+}
+
+.btn-sub button {
+
+  width: 100px;
+  height: 35px;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #9ccffa;
+  border: solid white;
+  overflow: hidden;
+
+}
+
+.fe2 {
+
+  padding-top: 20px;
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
 }
